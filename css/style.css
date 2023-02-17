@@ -1,0 +1,262 @@
+
+.nav-center{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 0.3rem;
+    width: 95vw;
+    /* background: red; */
+}
+.nav-header {
+    margin-right: 4rem;
+    height: auto;
+}
+.nav-header .menu {
+    display: none;
+}
+.nav-links {
+    /* background: pink; */
+    padding: 0.4rem;
+    /* border: 2px red solid; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(0, 0, 41%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs
+}
+.nav-link {
+    margin-right: 1rem;
+}
+.right-end {
+    margin-top: auto;
+    margin-left: auto;
+    display: flex;
+    margin-right: 2rem;
+}
+/* .register { 
+    width: 8vw;
+    height: 5vh;
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 1rem;
+    margin-left: 1px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+} */
+.register {
+    align-self: center;
+    /* background: black; */
+    color: blue;
+    height: auto;
+    width: 70px;
+    border: 1px solid rgb(172, 167, 167);
+    padding: 5px 10px;
+    border-radius: 1rem;
+}
+.words .mobile-image {
+    display: none;
+}
+.login {
+    /* border: 2px solid black; */
+    margin-right: 2rem;
+}
+.content {
+    /* border: 2px solid black; */
+    width: 67%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+    padding: 0 50px;
+}
+.other-part img {
+    /* border: 2px solid black; */
+    /* height: 80vh; */
+    width: 22em;
+    margin: 0;
+}
+.words {
+    /* border: 2px solid black; */
+    width: 50%;
+    margin: 0;
+}
+.words h1 {
+    /* border: 2px solid black; */
+    margin-top: 4rem;
+    width: 98%;
+    font-weight: 700;
+    font-size: 5em;
+    line-height: 4rem;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+.words p {
+    /* border: 2px solid pink; */
+    width: 66%;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(160, 158, 158);
+    font-family: sans-serif, "Times New Roman";
+}
+.learn-more {
+    /* display: flex; */
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    background: black;
+    width: 50px;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 500px;
+}
+/* .learn-more a {
+    margin: auto;
+    border: 2px solid red;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+
+} */
+.images {
+    /* display: flex; */
+    /* flex-direction: row; */
+    position: absolute;
+    bottom: 0%;
+}
+.images img {
+    margin-right: 2rem;
+}
+
+.caption {
+    margin-bottom: 45px;
+}
+@media screen and (max-width:762px) {
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    main {
+        padding: 0;
+        margin: 0;
+        margin-top: 1.4em;
+    }
+    .content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    /* 
+    =============
+    =============
+    Styling mobile image
+     */
+     .words {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+    .words .mobile-image {
+        display: block;
+        width: 100%;
+    }
+    /* 
+    =============
+    =============
+    hiding nav-links
+     */
+   .nav-links {
+    display: none;
+   }
+   /*
+   ===============
+   ===============
+   hiding desktop image 
+    */
+    .other-part img {
+        display: none;
+    }
+    /*  
+    ===========
+    ===========
+    inputing mobile view images 
+     */
+    
+    /* 
+    =============
+    =============
+    Inputing menu image
+     */
+    .nav-header .menu {
+        display: block;
+    }
+    /* 
+    =============
+    =============
+    nav-header
+    */
+    .nav-bar {
+        width: 100%;
+    }
+    .nav-center {
+        width: 100%;
+    }
+    .nav-header {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .words h1 br {
+        display: none;
+    }
+    .words h1 {
+        font-size: 2.8em;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .words p {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .learn-more {
+        height: auto;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: black;
+        width: 100px;
+        padding: 15px 30px;
+        color: white;
+        border-radius: 7px;
+        text-decoration: none;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .images{
+        margin: auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .images img {
+        /* background: pink; */
+        margin-top: 20px;
+        margin-right: 2em;
+        width: 70px;
+        height: 20px;
+    }
+}   
