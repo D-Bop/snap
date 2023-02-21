@@ -7,8 +7,32 @@
         <title>Login</title>
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     </head>
-    <body>
-        
+    <body class="login-body">
+        <div class="login-page-content">
+            <img src="./images/image-hero-mobile.png" alt="">
+            <h1>LOG IN</h1>
+            <div class="forms">
+                <form action="">
+                    <div>
+                        <label for="username"></label>
+                        <span><i class="fas fa-user"></i></span>
+                        <input type="text" name="username" placeholder="username">
+                    </div>
+                    <div class="password">
+                        <label for="password"></label>
+                        <span><i class="fas fa-lock"></i></span>
+                        <input type="password" name="password" placeholder="password">
+                    </div>
+                    <div class="remember">
+                        <input name="remember-me" id="remember-me" type="checkbox">
+                        <label for="remember-me">Remember me</label>
+                    </div>
+                </form>
+            </div>
+            <a href="./index.html" class="form-login"><h4>Login</h4></a>
+            <a href="#" class="forgot">Forgot password?</a>
+        </div>
     </body>
 </html>
